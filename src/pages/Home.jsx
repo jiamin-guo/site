@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Navbar, NavItem } from '../components/Navbar';
 import image from '../assets/graphic.svg';
 import jiaminC from '../assets/JiaminCircle.png';
+import cat from '../assets/cat-sushi.svg';
 import GradientButton from '../components/GradientButton';
 
 const Main = styled.div`
@@ -96,7 +97,7 @@ export default function Home() {
 
       </div>
       <div className="contact-section" id="contact">
-
+        <img src={cat} alt="cat" />
       </div>
       <footer className="footer">
         <p>

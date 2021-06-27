@@ -6,11 +6,11 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components'
 
-import logo from "../assets/logo.svg";
+import cat from "../assets/catSushi.svg";
 
 const Nav = styled.nav`
   background: linear-gradient(135deg, #C7E3FE 0%, #FFFFFF 80%);
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,6 @@ const NavbarContainer = styled.div`
   align-items: center;
   z-index: 1;
   width: 100%;
-  pading: 0 24px;
 `;
 
 const NavLinks = styled(LinkS)`
@@ -37,15 +36,15 @@ const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1.5rem;
-  height: 50px;
+  padding: 0 1.2rem;
+  height: 70px;
   cursor: pointer;
   border-bottom: 3px solid transparent;
 `;
 
 const Logo = styled.img`
-  height: 30px;
-  margin: 0 20px 0 20px;
+  height: 50px;
+  margin-left: 10px;
 `;
 
 export const NavItem = ({ text, to, opClass }) => {
@@ -68,7 +67,7 @@ export const Navbar = () => {
     <Nav>
       <NavbarContainer className="navbar">
         <NavItem to="home" text={
-          <Logo src={logo} alt="logo"/>
+          <Logo src={cat} alt="logo"/>
         } />
         <NavItem to="about" text="About" id="about" />
         <NavItem to="work" text="Work" />
