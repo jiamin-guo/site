@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 import { Navbar, NavItem } from '../components/Navbar';
 import image from '../assets/graphic.svg';
-import jiamin from '../assets/Jiamin.png';
 import jiaminC from '../assets/JiaminCircle.png';
 import GradientButton from '../components/GradientButton';
 
