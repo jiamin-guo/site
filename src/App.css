@@ -29,7 +29,7 @@
 }
 
 .main-section {
-    height: 90vh;
+    height: 95vh;
     position: relative;
 }
 
@@ -65,7 +65,7 @@
 
 .landing-page-heading {
     font-family: Hamurz;
-    color: #437FEC;
+    color: #4986f8d8;
     font-size: 5rem;
     padding-bottom: 30px;
 
@@ -75,6 +75,6 @@
         font-size: 4rem;
     }
     .main-text {
-        font-size: 1rem;
+        font-size: 12pt;
     }
 }

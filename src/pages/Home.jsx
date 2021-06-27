@@ -47,10 +47,15 @@ const MainImg = styled.img`
 
 const JiaminImg = styled.img`
   max-height: 50vh;
+  margin-bottom: 30px;
 `;
 
 const AboutMe = styled.div`
   padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   @media(max-width: 800px) {
     max-width: 90%;
