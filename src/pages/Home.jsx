@@ -93,7 +93,7 @@ export default function Home() {
         </AboutMe>
       </div>
       <div className="work-section" id="work">
-
+        <p className="landing-page-heading">oops... under construction</p>
       </div>
       <div className="contact-section" id="contact">
       </div>

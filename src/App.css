@@ -41,11 +41,14 @@
 .work-section {
     height: 100vh;
     background-color: #a2d2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-section {
     height: 100vh;
-    background-color: #E1E1EF;
+    background-color: #6babf5;
 }
 
 .footer {
