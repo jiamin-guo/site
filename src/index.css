@@ -6,6 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+	font-family: KGFont;
+	src: url("./assets/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: Hamurz;
+	src: url("./assets/Hamurz\ Free\ Version.ttf");
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
