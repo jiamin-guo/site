@@ -20,6 +20,7 @@
     color:#184EAE;
     padding-bottom: 10px;
     line-height: 2rem;
+    letter-spacing: 2px;
 }
 
 .read-more {
@@ -28,7 +29,7 @@
 }
 
 .main-section {
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -39,22 +40,42 @@
 
 .work-section {
     height: 100vh;
-    background-color: #f0efcd;
+    background-color: #a2d2ff;
 }
 
 .contact-section {
     height: 100vh;
-    background-color: #b3e7d6;
+    background-color: #7bb0e2;
+}
+
+.footer {
+    height: 70px;
+    background-color: #284968;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .navbar > .active {
     border-bottom: 3px solid #437FEC;
 }
 
+
 .landing-page-heading {
     font-family: Hamurz;
     color: #437FEC;
     font-size: 5rem;
-    opacity: 90%;
+    opacity: 80%;
     padding-bottom: 30px;
+
+}
+@media(max-width: 500px) {
+    .landing-page-heading {
+        font-size: 4rem;
+    }
+    .main-text {
+        font-size: 1rem;
+    }
 }
