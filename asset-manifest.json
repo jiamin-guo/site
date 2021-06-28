@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.05947299.chunk.css",
-    "main.js": "/site/static/js/main.7b6a1e52.chunk.js",
-    "main.js.map": "/site/static/js/main.7b6a1e52.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.8608a33a.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.8608a33a.js.map",
-    "static/js/2.2e6738b0.chunk.js": "/site/static/js/2.2e6738b0.chunk.js",
-    "static/js/2.2e6738b0.chunk.js.map": "/site/static/js/2.2e6738b0.chunk.js.map",
-    "static/js/3.6238ea83.chunk.js": "/site/static/js/3.6238ea83.chunk.js",
-    "static/js/3.6238ea83.chunk.js.map": "/site/static/js/3.6238ea83.chunk.js.map",
+    "main.css": "/site/static/css/main.240c647d.chunk.css",
+    "main.js": "/site/static/js/main.809b7497.chunk.js",
+    "main.js.map": "/site/static/js/main.809b7497.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.3cdba753.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.3cdba753.js.map",
+    "static/js/2.9e443ba5.chunk.js": "/site/static/js/2.9e443ba5.chunk.js",
+    "static/js/2.9e443ba5.chunk.js.map": "/site/static/js/2.9e443ba5.chunk.js.map",
+    "static/js/3.758bac1e.chunk.js": "/site/static/js/3.758bac1e.chunk.js",
+    "static/js/3.758bac1e.chunk.js.map": "/site/static/js/3.758bac1e.chunk.js.map",
     "index.html": "/site/index.html",
-    "static/css/main.05947299.chunk.css.map": "/site/static/css/main.05947299.chunk.css.map",
-    "static/js/2.2e6738b0.chunk.js.LICENSE.txt": "/site/static/js/2.2e6738b0.chunk.js.LICENSE.txt",
+    "static/css/main.240c647d.chunk.css.map": "/site/static/css/main.240c647d.chunk.css.map",
+    "static/js/2.9e443ba5.chunk.js.LICENSE.txt": "/site/static/js/2.9e443ba5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/site/static/media/OpenSans-Regular.1b0809d5.ttf",
+    "static/media/Jiamin.9bc67ac6.png": "/site/static/media/Jiamin.9bc67ac6.png",
     "static/media/JiaminCircle.8171c326.png": "/site/static/media/JiaminCircle.8171c326.png",
     "static/media/catSushi.88d478a1.svg": "/site/static/media/catSushi.88d478a1.svg",
-    "static/media/graphic.2d396761.svg": "/site/static/media/graphic.2d396761.svg"
+    "static/media/contact.792642cc.svg": "/site/static/media/contact.792642cc.svg",
+    "static/media/graphic.2d396761.svg": "/site/static/media/graphic.2d396761.svg",
+    "static/media/graphicSmall.31dda124.svg": "/site/static/media/graphicSmall.31dda124.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8608a33a.js",
-    "static/js/2.2e6738b0.chunk.js",
-    "static/css/main.05947299.chunk.css",
-    "static/js/main.7b6a1e52.chunk.js"
+    "static/js/runtime-main.3cdba753.js",
+    "static/js/2.9e443ba5.chunk.js",
+    "static/css/main.240c647d.chunk.css",
+    "static/js/main.809b7497.chunk.js"
   ]
 }
