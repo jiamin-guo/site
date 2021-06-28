@@ -25,7 +25,7 @@
 
 .read-more {
     padding: 0 !important;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .main-section {
@@ -44,16 +44,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .contact-section {
     height: 100vh;
     background-color: #6babf5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer {
     height: 70px;
-    background-color: #284968;
+    background-color: #1c5e9c;
     color: white;
     display: flex;
     justify-content: center;
@@ -71,13 +76,20 @@
     color: #4986f8d8;
     font-size: 5rem;
     padding-bottom: 30px;
-
 }
+
+.contact-heading {
+    font-family: Hamurz;
+    color: #dfe9ff;
+    font-size: 4rem;
+}
+
 @media(max-width: 500px) {
     .landing-page-heading {
         font-size: 4rem;
     }
     .main-text {
-        font-size: 12pt;
+        font-size: 10pt;
+        letter-spacing: 1.5px;
     }
 }

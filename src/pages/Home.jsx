@@ -1,10 +1,18 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive'
 import styled from 'styled-components'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
 
 import { Navbar, NavItem } from '../components/Navbar';
-import image from '../assets/graphic.svg';
+import bigImage from '../assets/graphic.svg';
+import smallImage from '../assets/graphicSmall.svg';
 import jiaminC from '../assets/JiaminCircle.png';
+import jiaminBig from '../assets/Jiamin.png';
+import contact from '../assets/contact.svg';
 import GradientButton from '../components/GradientButton';
+
 
 const Main = styled.div`
 	max-width: 50%;
@@ -31,7 +39,7 @@ const MainImg = styled.img`
   bottom: 0;
   right: 0;
   z-index: -1;
-  shape-outside: url(${image});
+  shape-outside: url(${bigImage});
   // max-height: 80vh;
   overflow: hidden;
 
@@ -45,24 +53,46 @@ const MainImg = styled.img`
 `;
 
 const JiaminImg = styled.img`
-  max-height: 50vh;
-  margin-bottom: 30px;
-`;
-
-const AboutMe = styled.div`
-  padding: 20px 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-height: 80vh;
+  margin: 50px;
 
   @media(max-width: 800px) {
+    max-height: 50vh;
     max-width: 90%;
-    padding: 20px 50px;
+    margin: 0px;
+    flex-direction: column;
   }
 `;
 
+const ContactImg = styled.img`
+  max-height: 50vh;
+`;
+
+const AboutMe = styled.div`
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+
+  @media(max-width: 800px) {
+    max-width: 90%;
+    padding: 0px 50px;
+    flex-direction: column;
+  }
+`;
+
+const IconContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  align-items: center;
+`;
+
 export default function Home() {
+  const isMobileSmall = useMediaQuery({ query: '(max-width: 500px)' });
+  const isJiaminSmall = useMediaQuery({ query: '(max-width: 800px)' });
   return (
     <main>
       <Navbar />
@@ -77,11 +107,11 @@ export default function Home() {
             </GradientButton>
           } />
         </Main>
-        <MainImg src={image} />
+        <MainImg src={isMobileSmall ? smallImage: bigImage} />
       </div>
       <div className="about-section" id="about">
         <AboutMe>
-          <JiaminImg src={jiaminC} alt="photo of jiamin" />
+          <JiaminImg src={isJiaminSmall ? jiaminC : jiaminBig } alt="photo of jiamin" />
           <p className="main-text">
             Heyy! I'm currently a 3rd Year Compsci Student at UNSW and work as a
             technology cadet at UBS. I really enjoy playing volleyball, painting, playing with my cats, and eating lots of food :D <br />
@@ -96,6 +126,19 @@ export default function Home() {
         <p className="landing-page-heading">oops... under construction</p>
       </div>
       <div className="contact-section" id="contact">
+        <p className="contact-heading">contact me</p>
+        <IconContainer>
+          <a href="https://www.facebook.com/JiaminGu0/" target="_blank" rel="noreferrer">
+            <FacebookIcon style={{ color: "white" }} fontSize="large"/>
+          </a>
+          <a href="https://www.linkedin.com/in/jia-min-guo-a24926215/" target="_blank" rel="noreferrer">
+            <LinkedInIcon style={{ color: "white" }} fontSize="large"/>
+          </a>
+          <a href="mailto: jiamin.guo@outlook.com" target="_blank" rel="noreferrer">
+            <EmailIcon style={{ color: "white" }} fontSize="large"/>
+          </a>
+        </IconContainer>
+        <ContactImg src={contact} alt="contact image" />
       </div>
       <footer className="footer">
         <p>
