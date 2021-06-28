@@ -66,6 +66,7 @@ const JiaminImg = styled.img`
 
 const ContactImg = styled.img`
   max-height: 50vh;
+  max-width: 80vw;
 `;
 
 const AboutMe = styled.div`
