@@ -1,8 +1,4 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components'
 
@@ -70,7 +66,7 @@ export const Navbar = () => {
           <Logo src={cat} alt="logo"/>
         } />
         <NavItem to="about" text="About" id="about" />
-        <NavItem to="work" text="Work" />
+        <NavItem to="work" text="Art" />
         <NavItem to="contact" text="Contact" />
       </NavbarContainer>
       {/* <Button id="logout" variant="contained" >Logout</Button> */}

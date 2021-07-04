@@ -5,13 +5,17 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
+import GradientButton from '../components/GradientButton';
 import { Navbar, NavItem } from '../components/Navbar';
 import bigImage from '../assets/graphic.svg';
 import smallImage from '../assets/graphicSmall.svg';
 import jiaminC from '../assets/JiaminCircle.png';
 import jiaminBig from '../assets/Jiamin.png';
+import cherry from '../assets/cherry-blossom.png';
+import galaxy from '../assets/galaxy.jpg';
+import marys from '../assets/st-marys.jpg';
+import three from '../assets/three.jpg';
 import contact from '../assets/contact.svg';
-import GradientButton from '../components/GradientButton';
 
 
 const Main = styled.div`
@@ -91,6 +95,25 @@ const IconContainer = styled.div`
   align-items: center;
 `;
 
+const ArtContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const ArtImg = styled.img`
+  max-height: 30vh;
+  padding: 15px;
+  @media(max-width: 800px) {
+    max-height: 20vh;
+    padding: 8px;
+  }
+  @media(max-width: 400px) {
+    max-height: 20vh;
+    padding: 5px;
+  }
+`;
+
 export default function Home() {
   const isMobileSmall = useMediaQuery({ query: '(max-width: 500px)' });
   const isJiaminSmall = useMediaQuery({ query: '(max-width: 800px)' });
@@ -124,7 +147,16 @@ export default function Home() {
         </AboutMe>
       </div>
       <div className="work-section" id="work">
-        <p className="landing-page-heading">oops... under construction</p>
+        <p className="landing-page-heading">my art!</p>
+        <a href="https://drive.google.com/drive/folders/1ZIzx0Sv2yUD3Q_t3AH1lfb3-LRWuBEdT?usp=sharing" target="_blank" rel="noreferrer">
+        <p className="main-text">Click to see more</p>
+          <ArtContainer>
+            <ArtImg src={cherry} alt='cherry blossom photomanipulation' />
+            <ArtImg src={galaxy} alt='galaxy acrylic' />
+            <ArtImg src={three} alt='three watercolours' />
+            <ArtImg src={marys} alt='st-marys cathedral' />
+          </ArtContainer>
+        </a>
       </div>
       <div className="contact-section" id="contact">
         <p className="contact-heading">contact me</p>
