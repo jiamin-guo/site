@@ -164,7 +164,7 @@ export default function Home() {
           <a href="https://www.facebook.com/JiaminGu0/" target="_blank" rel="noreferrer">
             <FacebookIcon style={{ color: "white" }} fontSize="large"/>
           </a>
-          <a href="https://www.linkedin.com/in/jia-min-guo-a24926215/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/jiaminguo" target="_blank" rel="noreferrer">
             <LinkedInIcon style={{ color: "white" }} fontSize="large"/>
           </a>
           <a href="mailto: jiamin.guo@outlook.com" target="_blank" rel="noreferrer">
