@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "www.jiamin-guo.me/site",
+  "homepage": "https://jiamin-guo.github.io/site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
